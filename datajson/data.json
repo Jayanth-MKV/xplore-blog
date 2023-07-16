@@ -1,0 +1,74 @@
+[
+    {
+        "slug": "nextjs-tutorial copy",
+        "meta": {
+            "title": "next js copy tutorial",
+            "description": "nextjs copy tutorial",
+            "tutorial": "nextjs-tutorial",
+            "date": "01-Feb-2002"
+        },
+        "content": "\r\n# My First Post\r\nndjbvjwdnviiwdiviwviiwnv\r\nI **love** using [Next.js](https://nextjs.org/)\r\n\r\n```js\r\nconst doc = getDocBySlug(params.slug);\r\n```"
+    },
+    {
+        "slug": "nextjs-tutorial",
+        "meta": {
+            "title": "next js tutorial",
+            "description": "nextjs tutorial",
+            "tutorial": "nextjs-tutorial",
+            "date": "01-Feb-2002"
+        },
+        "content": "\r\n# My First Post\r\n\r\nI **love** using [Next.js](https://nextjs.org/)\r\n\r\n```js\r\nconst doc = getDocBySlug(params.slug);\r\n```"
+    },
+    {
+        "slug": "react-1 copy",
+        "meta": {
+            "title": "react-intro copy",
+            "description": "My very second blog post",
+            "tutorial": "react-tutorial",
+            "date": "01-Feb-2002"
+        },
+        "content": "\r\n# My First Post\r\n\r\nI **Hate** using [Next.js](https://nextjs.org/)\r\n\r\n```js\r\nconst doc = getDocBySlug(params.slug);\r\n```"
+    },
+    {
+        "slug": "react-1",
+        "meta": {
+            "title": "react-intro",
+            "description": "My very second blog post",
+            "tutorial": "react-tutorial",
+            "date": "01-Feb-2002"
+        },
+        "content": "\r\n# My First Post\r\n\r\nI **Hate** using [Next.js](https://nextjs.org/)\r\n\r\n```js\r\nconst doc = getDocBySlug(params.slug);\r\n```"
+    },
+    {
+        "slug": "hello-world",
+        "meta": {
+            "title": "Zustand Tutorial: Managing React State",
+            "description": "Get started with Zustand in React and learn how to manage a global state efficiently.",
+            "publishedAt": "2023-02-03 10:20:00",
+            "updatedAt": "2023-02-13 10:20:00",
+            "category": "React",
+            "author_avatar": "/ibas_ibaslogic.jpeg",
+            "toc": true,
+            "date": "01-Feb-2002"
+        },
+        "content": "\r\nState management is an essential topic in React. In the previous lessons, we covered the built-in global state management solutions like useState with prop drilling implementation and the context API.  \r\n\r\n```javascript\r\nvar s = \"JavaScript syntax highlighting\";\r\nalert(s);\r\n```\r\n \r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```\r\n \r\n```\r\nNo language indicated, so no syntax highlighting. \r\nBut let's throw in a <b>tag</b>.\r\n```\r\n\r\nHere is a simple footnote[^1].\r\n\r\nA footnote can also have multiple lines[^2].  \r\n\r\nYou can also use words, to fit your writing style more closely[^note].\r\n\r\n[^1]: My reference.\r\n[^2]: Every new line should be prefixed with 2 spaces.  \r\n  This allows you to have a footnote with multiple lines.\r\n[^note]:\r\n    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  \r\n    This footnote also has been made with a different syntax using 4 spaces for new lines.\r\n\r\n\r\nColons can be used to align columns.\r\n\r\n| Tables        | Are           | Cool  |\r\n| ------------- |:-------------:| -----:|\r\n| col 3 is      | right-aligned | $1600 |\r\n| col 2 is      | centered      |   $12 |\r\n| zebra stripes | are neat      |    $1 |\r\n\r\nThere must be at least 3 dashes separating each header cell.\r\nThe outer pipes (|) are optional, and you don't need to make the \r\nraw Markdown line up prettily. You can also use inline Markdown.\r\n\r\nMarkdown | Less | Pretty\r\n--- | --- | ---\r\n*Still* | `renders` | **nicely**\r\n1 | 2 | 3\r\n\r\n<a href=\"http://www.youtube.com/watch?feature=player_embedded&v=z2DI9ekwxV4\r\n\" target=\"_blank\"><img src=\"http://img.youtube.com/vi/z2DI9ekwxV4/0.jpg\" \r\nalt=\"IMAGE ALT TEXT HERE\" width=\"240\" height=\"180\" /></a>\r\n\r\n---\r\n\r\n\r\n<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/z2DI9ekwxV4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\r\n\r\n\r\n\r\nterm\r\n: definition\r\n\r\n### My Great Heading {#custom-id}\r\n\r\nThese built-in solutions have their use cases in applications with low-frequency updates and when prop drilling is feasible. However, they are not practically suitable for apps with frequent global state changes that cause unnecessary re-render and when prop drilling becomes a nightmare. \r\n\r\n> That is where state management libraries like redux, zustand, jotai and recoil come in. Naturally, these libraries can re-render the app components efficiently by ensuring that only the component that references a particular state is updated. \r\n\r\n```\r\n// contant.json\r\n{\r\n  \"firstName\": \"John\",\r\n  \"lastName\": \"Smith\",\r\n  \"age\": 25\r\n}\r\n```\r\n\r\n*This lesson introduces [the zustand state management library](https://github.com/pmndrs/zustand) in React. We will use it in our todos application and see how it behaves compared to the previous prop drilling and context API implementations.*\r\n\r\n**This guide is a follow-up to the React context implementation lesson. We advise you to read that lesson first to understand the todos project structure if you are just joining the React series.**\r\n<img style=\"margin:auto; width:100px\" src=\"/logo.png\" alt=\"Hii\" />\r\n\r\nAfter that, let’s get started!"
+    },
+    {
+        "slug": "react-t-2",
+        "meta": {
+            "title": "My Second Post",
+            "description": "My very second blog post",
+            "date": "01-Feb-2002"
+        },
+        "content": "\r\n# My First Post\r\n\r\nI **Hate** using [Next.js](https://nextjs.org/)\r\n\r\n```js\r\nconst doc = getDocBySlug(params.slug);\r\n```"
+    },
+    {
+        "slug": "react-tutorial",
+        "meta": {
+            "title": "My First Post",
+            "description": "My very first blog post",
+            "date": "01-Feb-2002"
+        },
+        "content": "\r\n# My First Post\r\n\r\nI **love** using [Next.js](https://nextjs.org/)\r\n\r\n```js\r\nconst doc = getDocBySlug(params.slug);\r\n```"
+    }
+]

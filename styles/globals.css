@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* bg-clip-text bg-[linear-gradient(#22D3EE, #0EA5E9)] */
+
+@layer utilities {
+
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+    /* width */
+    .yes-scrollbar::-webkit-scrollbar {
+      width: 5px;
+    }
+  
+    /* Track */
+    .yes-scrollbar::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      border-radius: 10px;
+    }
+  
+    /* Handle */
+    .yes-scrollbar::-webkit-scrollbar-thumb {
+      background: linear-gradient(#22D3EE, #0EA5E9);
+      border-radius: 0px;
+    }
+  
+    /* Handle on hover */
+    .yes-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #0EA5E9;
+    }
+
+
+}
+
+@layer base{
+  
+  :root {
+    --subhead:#AFC2D4;
+    --head:#E7EDF4;
+    /* heading : blue-300 */
+    /* Dark Heading : blue-500 */
+    --other:#7B96B2;
+    --blue-heading:#3294F8;
+    --nav:#F8FAFC;
+    /* slate-50 */
+    --smallbg:#1E293B;
+    /* slate-800 */
+    --text:#CBD5E1;
+    /* slate-300 */
+    --homebg:#0D0D0D;
+    --headbg:#10283F;
+    /* Other slate-900 */
+  }
+  
+  
+  .xc-color{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(#22D3EE, #0EA5E9);
+  }
+  
+  .xc-success{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(#10b918, #bef264);
+  /* background: linear-gradient(180deg, rgba(16, 185, 129, 0.20) 0%, rgba(190, 242, 100, 0.20) 100%); */
+  }
+
+  body {
+    @apply dark:bg-gray-900 bg-slate-300 
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --xc: linear-gradient(#22D3EE,#0EA5E9);
+    --prim: rgba(32, 211, 238, 1);
+      --seco: rgba(14, 165, 233, 1);
+  --color-text-xc: 'var(--xc)';
+      --subhead: #AFC2D4;
+        --head: #E7EDF4;
+        /* heading : blue-300 */
+        /* Dark Heading : blue-500 */
+        --other: #7B96B2;
+        --blue-heading: #3294F8;
+        --nav: #F8FAFC;
+        /* slate-50 */
+        --smallbg: #1E293B;
+        /* slate-800 */
+        --text: #CBD5E1;
+        /* slate-300 */
+        --homebg: #0D0D0D;
+        --headbg: #10283F;
+        /* Other slate-900 */
+  }
+}
+

@@ -1,0 +1,51 @@
+import { Providers } from "./providers";
+import Header from "@/components/Header";
+import Toogler from "@/components/Toogler";
+import Footer from "@/components/Footer";
+import "../styles/globals.css";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({weight:'400' ,subsets: ["latin"] });
+
+export const metadata = {
+  title: "Xplore Community",
+  description:
+    "Discover a treasure trove of tech articles, tutorials, and roadmaps on xplore community's website. Dive into a world of knowledge as we provide insightful content to help you navigate various domains, master new skills, and chart your path to success. Join us on this educational journey!",
+  applicationName: "Xplore Community",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "Next.js",
+    "React",
+    "JavaScript",
+    "programming",
+    "free resources",
+    "best tutorials",
+    "complete roadmaps",
+    "article on",
+  ],
+  authors: [
+    {
+      name: "Jayanth MKV",
+      url: "https://www.linkedin.com/in/jayanth-mkv-685609207/",
+    },
+  ],
+  creator: "Jayanth MKV",
+  publisher: "Xplore Community",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang='en'>
+      <body className={`${poppins.className} yes-scrollbar `}>
+        <Providers>
+          <Header />
+          <Toogler />
+          <div className=' bg-blue-200 dark:bg-slate-900 min-h-[450px] md:mt-[3rem] font-sans'>
+            {children}
+          </div>
+          <Footer />
+        </Providers>
+      </body>
+    </html>
+  );
+}
