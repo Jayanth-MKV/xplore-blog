@@ -9,7 +9,9 @@ const poppins = Poppins({weight:'400' ,subsets: ["latin"] });
 
 export const metadata = {
   title: "Xplore Community",
-  "google-site-verification":"r97zbLMu8e2wl4mmmFuUoOZTZDVKXEUhXVFlTD07p5A",
+  verification: {
+    google: "r97zbLMu8e2wl4mmmFuUoOZTZDVKXEUhXVFlTD07p5A"
+  },
   description:
     "Discover a treasure trove of tech articles, tutorials, and roadmaps on xplore community's website. Dive into a world of knowledge as we provide insightful content to help you navigate various domains, master new skills, and chart your path to success. Join us on this educational journey!",
   applicationName: "Xplore Community",
