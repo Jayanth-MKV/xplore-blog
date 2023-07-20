@@ -4,6 +4,7 @@ import Toogler from "@/components/Toogler";
 import Footer from "@/components/Footer";
 import "../styles/globals.css";
 import { Poppins } from "next/font/google";
+import Script from "next/script";
 
 const poppins = Poppins({weight:'400' ,subsets: ["latin"] });
 
@@ -41,6 +42,16 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body className={`${poppins.className} yes-scrollbar `}>
         <Providers>
+          <Script src='https://www.googletagmanager.com/gtag/js?id=G-8BDPV1PKKC' />
+          <Script id='google-analytics'>
+            {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-8BDPV1PKKC');
+        `}
+          </Script>
           <Header />
           <Toogler />
           <div className=' bg-blue-200 dark:bg-slate-900 min-h-[450px] md:mt-[3rem] font-sans'>
