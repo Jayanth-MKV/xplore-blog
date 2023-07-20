@@ -97,6 +97,7 @@ const page = () => {
                 </p>
               </div>
               <div className='flex'>
+                <Link href={tool.url} target='__blank'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   width='30'
@@ -113,6 +114,7 @@ const page = () => {
                     d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'
                   />
                 </svg>
+                </Link>
               </div>
             </div>
           ))}
