@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://xplore-blog.vercel.app/</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/author</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Next-TUT/Next-Tutorial-2</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Next-TUT/Next-Tutorial</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/nextjs-tutorial/nextjs-tutorial</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/nextjs-tutorial/nextjs-tutorial%20copy</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/reactjs-tutorial</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Next-TUT</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/nextjs-tutorial</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Devops</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Web%20Development</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Android%20Development</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Machine%20Learning</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Blockchain</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/DSA%20(%20Competitive%20Programming%20)</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Data%20Science</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog/demo1</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/reactjs-tutorial/react-1</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/reactjs-tutorial/react-1%20copy</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog/hello-world</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog/react-t-2</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog/react-tutorial</loc>
+  <lastmod>2023-07-20T09:51:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

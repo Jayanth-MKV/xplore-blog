@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://xplore-blog.vercel.app/
+
+# Sitemaps
+Sitemap: https://xplore-blog.vercel.app/sitemap.xml
