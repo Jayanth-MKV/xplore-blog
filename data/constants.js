@@ -36,18 +36,18 @@ export const tools = [
     name: "Tax Calculator",
     description:
       "The Tax Calculator is a web application designed to help users calculate their income tax liability in India. It provides a user-friendly interface where users can enter their income details, deductions, and other relevant information. The calculator then computes the tax liability based on both the old and new tax regimes, allowing users to compare the tax amounts and make informed decisions.",
-    url: "",
+    url: "https://jayanth-mkv.github.io/Tax-Calculator/",
   },
   {
     name: "Tax2 Calculator",
     description:
       "The Tax Calculator is a web application designed to help users calculate their income tax liability in India. It provides a user-friendly interface where users can enter their income details, deductions, and other relevant information. The calculator then computes the tax liability based on both the old and new tax regimes, allowing users to compare the tax amounts and make informed decisions.",
-    url: "",
+    url: "https://jayanth-mkv.github.io/Tax-Calculator/",
   },
   {
     name: "Tax3 Calculator",
     description:
       "The Tax Calculator is a web application designed to help users calculate their income tax liability in India. It provides a user-friendly interface where users can enter their income details, deductions, and other relevant information. The calculator then computes the tax liability based on both the old and new tax regimes, allowing users to compare the tax amounts and make informed decisions.",
-    url: "",
+    url: "https://jayanth-mkv.github.io/Tax-Calculator/",
   },
 ];
