@@ -1,27 +1,38 @@
-import { getparamsforblog, nontutorialarticles } from "@/lib/articles";
+import { getparamsforblog, nontutorialarticles,findNext } from "@/lib/articles";
 import { getDocBySlug } from "@/lib/docs";
 import Markdown from "markdown-to-jsx";
 import Link from "next/link";
 
-
-
 export default async function Doc(props) {
   // console.log(props)
-  const readmore = await nontutorialarticles();
   const slug = props.params.slug;
-    const realSlug = slug.replace(/\%20/, " ");
+  const realSlug = slug.replaceAll(/\%20/g, " ");
+  const readmore = await nontutorialarticles();
+  const { nextname, prevname } = await findNext(readmore, realSlug);
   const Article = await getDocBySlug(realSlug)
   // const Article= Articles.filter((article) => article.slug == realSlug)[0];
   // console.log(Article);
   return (
     <div className='bg-slate-300 dark:bg-slate-900 flex w-full justify-between flex-col md:flex-row'>
       <article className='md:min-w-[75%] h-fit prose dark:prose-invert lg:prose-xl font-mono prose-a:text-blue-600 prose-video:w-full prose-a:no-underline p-2 md:p-6'>
+        <div className='min-h-[3rem] mb-10 flex justify-between font-bold w-full'>
+          <Link
+            className='font-bold align-text-center px-6 py-2 md:py-1 text-slate-300 rounded-lg hover:bg-slate-100 hover:text-slate-900 border-solid border-slate-100 border-2'
+            href={`/blog/${prevname}`}>
+            Prev
+          </Link>
+          <Link
+            className='font-bold align-text-center px-6 py-2 md:py-1 text-slate-300 rounded-lg hover:bg-slate-100 hover:text-slate-900 border-solid border-slate-100 border-2'
+            href={`/blog/${nextname}`}>
+            Next
+          </Link>
+        </div>
         <h1 className='text-3xl'>
           Introduction to the most important topic in this century {realSlug}
         </h1>
         <Markdown>{Article.content}</Markdown>
       </article>
-      <aside className='hidden mt-10 p-2 md:w-[25%] md:flex items-start justify-center pt-5'>
+      <aside className='hidden p-2 md:w-[25%] md:flex items-start justify-center pt-5'>
         <div className='w-full h-fit'>
           <div className='px-8 text-3xl font-semibold text-red-500'>
             Read More
@@ -29,7 +40,10 @@ export default async function Doc(props) {
           <ul className='h-[400px] p-8 overflow-y-scroll no-scrollbar'>
             {readmore.map((name) => (
               <li className='text-lg my-5 capitalize' key={name}>
-                <Link aria-label={name} href={`/blog/${name}`}>
+                <Link
+                  className={name == realSlug ? `text-blue-400` : ``}
+                  aria-label={name}
+                  href={`/blog/${name}`}>
                   {name}
                 </Link>
               </li>

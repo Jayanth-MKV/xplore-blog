@@ -56,6 +56,7 @@ export default function RootLayout({ children }) {
           <Toogler />
           <div className=' bg-blue-200 dark:bg-slate-900 min-h-[750px] md:mt-[3rem] font-sans'>
             {children}
+            <div className="md:h-[15rem] min-h-[5rem]"></div>
           </div>
           <Footer />
         </Providers>

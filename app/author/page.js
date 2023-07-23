@@ -6,16 +6,18 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='md:mt-[8rem] mb-[8rem]'>
-      <div className='w-[80%] min-h-[300px] mx-auto flex md:flex-row flex-col'>
-        <div className='md:w-[30%] md:p-10 p-5'>
+    <>
+      <div className='md:w-[80%] min-h-[300px] mx-auto flex md:flex-row flex-col'>
+        <div className='md:w-[30%] md:py-10 p-5'>
+          <div className='w-full'>
           <img
             className='mx-auto rounded-full drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] object-cover md:h-[300px] h-[250px] w-[250px] md:w-[300px]'
             height={100}
             width={100}
             alt='Jayanth-MKV'
             src='/author.jpg'
-          />
+            />
+            </div>
         </div>
         <div className='md:w-[70%] flex flex-col gap-10 justify-around md:p-10 p-5 font-mono'>
           <h1 className='text-4xl font-bold'>Jayanth MKV</h1>
@@ -79,13 +81,13 @@ const page = () => {
         </div>
       </div>
 
-      <div className='md:w-[90%] md:mx-auto  flex p-3 md:p-[3rem] flex-col min-h-[400px] mt-10'>
+      <div className='md:w-[80%] md:mx-auto  flex flex-col min-h-[400px] mt-10'>
         <div className='flex justify-between '>
           <h2 className='text-3xl w-1/2 md:text-3xl font-bold'>
             Our <span className='xc-color'>Tools</span>
           </h2>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-4 gap-4 overflow-hidden py-10 '>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 overflow-hidden py-10 '>
           {tools.map((tool) => (
             <div
               key={tool.name}
@@ -122,7 +124,7 @@ const page = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
