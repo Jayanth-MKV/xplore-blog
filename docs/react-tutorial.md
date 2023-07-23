@@ -1,8 +1,7 @@
 ---
 title: 'My First Post'
 description: 'My very first blog post'
-date: 01-Feb-2002
-blogorder: 1
+date: '2023-7-23' 
 ---
 
 # My First Post

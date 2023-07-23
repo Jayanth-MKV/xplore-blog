@@ -2,7 +2,7 @@
 title: 'react-intro'
 description: 'My very second blog post'
 tutorial: 'reactjs-tutorial'
-blogorder: 5
+date: '2023-7-20'
 order: 2
 ---
 

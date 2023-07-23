@@ -23,8 +23,8 @@ export default function ResponsiveCarousel({ items }) {
 
 function CardComponent({ name ,image}) {
   return (
-    <div className='w-full flex justify-center items-center mb-10'>
-      <div className='mt-5 w-[80%] rounded-lg  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm bg-slate-900'>
+    <div className='w-full flex justify-center items-center mb-10 md:w-[70%] md:mx-auto'>
+      <div className='mt-5 w-[80%]  md:h-[350px] rounded-lg  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm bg-slate-900'>
         <div
           className='w-full flex justify-center items-center h-48 rounded-full bg-blue-200 dark:bg-slate-900'
           dangerouslySetInnerHTML={{ __html: image }}></div>

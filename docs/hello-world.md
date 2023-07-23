@@ -7,7 +7,7 @@ updatedAt: '2023-02-13 10:20:00'
 category: 'React'
 author_avatar: '/ibas_ibaslogic.jpeg'
 toc: true
-blogorder: 3
+date: '2023-7-21' 
 ---
 
 State management is an essential topic in React. In the previous lessons, we covered the built-in global state management solutions like useState with prop drilling implementation and the context API.  

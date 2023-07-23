@@ -52,7 +52,7 @@ try {
 
   return (
     <>
-      <form ref={fromref} onSubmit={handleSubmit} className='rounded-lg shadow-xl flex flex-col px-8 py-8 bg-slate-900  '>
+      <form ref={fromref} onSubmit={handleSubmit} className='rounded-lg shadow-xl flex flex-col md:pl-0 md:pr-16 py-8 bg-slate-900  '>
             <label
               htmlFor='fullname'
               className='text-gray-500 font-light mt-8 dark:text-gray-50'>
