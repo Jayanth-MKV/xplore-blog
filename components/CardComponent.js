@@ -26,7 +26,7 @@ export function CardComponent({ name }) {
           className='px-4 py-2 text-sm text-blue-100 bg-blue-500 rounded shadow'
           aria-label={name}
         >
-          Read more
+          Learn
         </Link>
       </div>
     </div>

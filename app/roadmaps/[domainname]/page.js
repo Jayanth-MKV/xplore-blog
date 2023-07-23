@@ -6,17 +6,11 @@ const page = (props) => {
     const domainname = props.params.domainname;
     const name = domainname.replace(/\%20/, " ");
   return (
-    <div>
-      
-          <>
-            <div className='flex text-center flex-col justify-center items-center min-h-[200px]:'>
-              <div className='text-3xl'>
-                {name}
-              </div>
-              <div className='text-2xl'>Coming Soon</div>
-            </div>
-          </>
-        
+    <div className='md:mt-[8rem] mb-[8rem]'>
+      <div className='flex text-center flex-col justify-center items-center min-h-[200px]:'>
+        <h1 className='text-3xl'>{name}</h1>
+        <div className='text-2xl'>Coming Soon</div>
+      </div>
     </div>
   );
 };

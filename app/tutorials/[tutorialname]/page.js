@@ -7,23 +7,29 @@ const Tutorial = async(props) => {
   const tutorialname=props.params.tutorialname;
   const allArticles = await getTutorialData(tutorialname);
   // console.log(allArticles);
-const articles = allArticles.sort((a, b) => {
-  return a.meta.blogorder - b.meta.blogorder;
-});
+
   return (
     <>
       <div className='capitalize text-center py-5 font-extrabold dark:text-slate-300 text-slate-900 text-2xl md:text-4xl'>
         {tutorialname}
       </div>
+      
       <div class='bg-blue-200 dark:bg-slate-900 flex flex-col gap-4 py-10 items-center justify-center'>
-        {articles.map((data) => {
-          return (
-            <>
-              <Articleview data={data} />
-            </>
-          );
-        })}
+        {allArticles.map((item) => {
+          return (<>
+            <h1 className="text-xl font-bold">{item.category}</h1>
+            {item.data.map((data) => {
+              return (
+                <>
+                  <Articleview data={data} />
+                </>
+              );
+            })}
+          </>);
+       })
+        }
       </div>
+      
     </>
   );
 }
@@ -57,7 +63,7 @@ const Articleview = ({data}) => {
       <div className=' col-span-12 md:col-span-10 '>
         <div class='w-full md:mt-5'>
           <p class='capitalize text-blue-600 text-md md:text-xl font-semibold'>
-            {data.meta.order}. Introduction to {data.meta.title}{" "}
+           Introduction to {data.meta.title}{" "}
           </p>
         </div>
 

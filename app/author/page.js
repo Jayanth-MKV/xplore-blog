@@ -6,7 +6,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <>
+    <div className='md:mt-[8rem] mb-[8rem]'>
       <div className='w-[80%] min-h-[300px] mx-auto flex md:flex-row flex-col'>
         <div className='md:w-[30%] md:p-10 p-5'>
           <img
@@ -91,36 +91,38 @@ const page = () => {
               key={tool.name}
               className='justify-self-center rounded-lg drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] bg-slate-900 flex p-5 justify-between flex-col h-[300px] w-[250px]'>
               <div className='flex flex-col gap-5'>
-                <h1 className='text-3xl font-bold text-[--blue-heading]'>{tool.name}</h1>
+                <h1 className='text-3xl font-bold text-[--blue-heading]'>
+                  {tool.name}
+                </h1>
                 <p className='line-clamp-4 text-lg font-medium'>
                   {tool.description}
                 </p>
               </div>
               <div className='flex'>
                 <Link href={tool.url} target='__blank'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='30'
-                  height='30'
-                  fill='currentColor'
-                  class='bi bi-box-arrow-up-right'
-                  viewBox='0 0 16 16'>
-                  <path
-                    fill-rule='evenodd'
-                    d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'
-                  />
-                  <path
-                    fill-rule='evenodd'
-                    d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'
-                  />
-                </svg>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='30'
+                    height='30'
+                    fill='currentColor'
+                    class='bi bi-box-arrow-up-right'
+                    viewBox='0 0 16 16'>
+                    <path
+                      fill-rule='evenodd'
+                      d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'
+                    />
+                    <path
+                      fill-rule='evenodd'
+                      d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'
+                    />
+                  </svg>
                 </Link>
               </div>
             </div>
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
