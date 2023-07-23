@@ -18,7 +18,7 @@ const Header = () => {
     <>
       <main
         style={{ backgroundImage: 'url("/images/cover.png")' }}
-        className='z-[995] relative bg-cover bg-center flex md:flex-col items-center justify-between md:p-20 md:pb-[8rem] py-7 px-5'>
+        className='z-[995] relative bg-cover bg-center flex md:flex-col items-center justify-between md:p-10 md:pb-[8rem] py-7 px-5'>
         <MobileNav open={open} setOpen={setOpen} />
         <div>
           <Image
