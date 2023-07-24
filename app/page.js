@@ -241,16 +241,6 @@ const page = async() => {
           <RoadmapCards />
         </div>
       </div>
-      <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col-reverse md:flex-row min-h-[400px] mt-10'>
-        <div className='flex flex-col justify-start md:w-2/5'>
-          <h2 className='text-3xl md:text-3xl font-bold'>
-            Contact<span className='xc-color'> Us</span>
-          </h2>
-          <div className=' pt-10'>
-            <Contact />
-          </div>
-        </div>
-      </div>
       <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
         <h2 className='text-3xl md:pb-10 md:text-3xl font-bold'>
           About<span className='xc-color'> Us</span>
@@ -258,7 +248,7 @@ const page = async() => {
         <div className='flex flex-col md:flex-row justify-start md:w-full'>
           <div className='md:w-1/2 py-10 flex flex-col justify-between'>
             <h1 className='text-2xl font-bold xc-color my-3'>
-              {"Xplore Community\'s Purpose"}
+              {"Xplore Community's Purpose"}
             </h1>
             <>
               <div>
@@ -268,7 +258,9 @@ const page = async() => {
                 </h1>
               </div>
               <div>
-                <h1 className='text-2xl font-bold text-blue-300 my-3'>Mission:</h1>
+                <h1 className='text-2xl font-bold text-blue-300 my-3'>
+                  Mission:
+                </h1>
                 <h1 className='text-md font-semibold font-mono'>
                   Our mission at xplore community is to Empowering students to
                   explore diverse domains and access valuable resources for
@@ -276,7 +268,9 @@ const page = async() => {
                 </h1>
               </div>
               <div>
-                <h1 className='text-2xl font-bold text-blue-300 my-3'>Vision:</h1>
+                <h1 className='text-2xl font-bold text-blue-300 my-3'>
+                  Vision:
+                </h1>
                 <h1 className='text-md font-semibold font-mono'>
                   Creating a global community where every student has the
                   opportunity to unlock their full potential and chart a
@@ -297,6 +291,16 @@ const page = async() => {
             <div className='md:px-10 pt-5'>
               <RCarousel items={tools} />
             </div>
+          </div>
+        </div>
+      </div>
+      <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col-reverse md:flex-row min-h-[400px] mt-10'>
+        <div className='flex flex-col justify-start md:w-3/5 mx-auto'>
+          <h2 className='text-3xl md:text-3xl font-bold'>
+            Contact<span className='xc-color'> Us</span>
+          </h2>
+          <div className=' pt-10'>
+            <Contact />
           </div>
         </div>
       </div>
