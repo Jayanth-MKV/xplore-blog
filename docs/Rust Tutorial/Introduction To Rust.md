@@ -4,7 +4,7 @@
  second blog post' 
  date: '2023-7-20' 
  tutorial: 'Rust Tutorial'
- order: 3 
+ order: 2 
 --- 
  
 # My First Post

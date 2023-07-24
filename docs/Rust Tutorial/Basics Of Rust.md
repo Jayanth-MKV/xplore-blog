@@ -4,7 +4,7 @@
  second blog post' 
  date: '2023-7-21' 
  tutorial: 'Rust Tutorial'
- order: 1
+ order: 3
  category: '2. Introduction'  
 --- 
 
