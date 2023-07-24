@@ -147,9 +147,9 @@ const page = async() => {
             width={"300"}
             alt='Xplore Community'
           />
-          <div className='animate__animated animate__pulse font-mono hover:text-white hover:py-2 text-center xc-color py-[8px] px-5 md:text-2xl text-lg font-bold rounded-xl border-[3px] border-solid border-[--prim] mt-5'>
+          <div className='w-fit animate__animated animate__pulse font-mono hover:text-white hover:py-2 text-center xc-color py-[8px] px-5 md:text-2xl text-lg font-bold rounded-xl border-[3px] border-solid border-[--prim] mt-5'>
             <Link href={"https://discord.gg/9MxVqaeK7e"} target='__blank'>
-              Join Us
+              Join&nbsp;Us
             </Link>
           </div>
         </div>
