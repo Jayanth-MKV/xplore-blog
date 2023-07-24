@@ -243,24 +243,49 @@ const page = async() => {
       </div>
       <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col-reverse md:flex-row min-h-[400px] mt-10'>
         <div className='flex flex-col justify-start md:w-2/5'>
-          <h2 className='text-3xl w-1/2 md:text-3xl font-bold'>
+          <h2 className='text-3xl md:text-3xl font-bold'>
             Contact<span className='xc-color'> Us</span>
           </h2>
-          <div className='pt-10'>
+          <div className=' pt-10'>
             <Contact />
           </div>
         </div>
-        <div className='flex flex-col justify-start md:w-3/5'>
-          <h2 className='text-3xl w-1/2 md:pl-10 md:pb-10 md:text-3xl font-bold'>
-            About<span className='xc-color'> Us</span>
-          </h2>
-          <div className='py-10 md:pl-10 flex h-max flex-col gap-10'>
-            <div>
-              <h1 className='text-2xl font-bold xc-color'>Moto:</h1>
-              <h1 className='text-2xl font-bold '>
-                Explore Your Possibilities, Empower Your Future
-              </h1>
-            </div>
+      </div>
+      <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
+        <h2 className='text-3xl md:pb-10 md:text-3xl font-bold'>
+          About<span className='xc-color'> Us</span>
+        </h2>
+        <div className='flex flex-col md:flex-row justify-start md:w-full'>
+          <div className='md:w-1/2 py-10 flex flex-col justify-between'>
+            <h1 className='text-2xl font-bold xc-color my-3'>
+              {"Xplore Community\'s Purpose"}
+            </h1>
+            <>
+              <div>
+                <h1 className='text-2xl font-bold text-blue-300 my-3'>Moto:</h1>
+                <h1 className='text-md font-semibold font-mono'>
+                  Explore Your Possibilities, Empower Your Future
+                </h1>
+              </div>
+              <div>
+                <h1 className='text-2xl font-bold text-blue-300 my-3'>Mission:</h1>
+                <h1 className='text-md font-semibold font-mono'>
+                  Our mission at xplore community is to Empowering students to
+                  explore diverse domains and access valuable resources for
+                  personal and professional growth.
+                </h1>
+              </div>
+              <div>
+                <h1 className='text-2xl font-bold text-blue-300 my-3'>Vision:</h1>
+                <h1 className='text-md font-semibold font-mono'>
+                  Creating a global community where every student has the
+                  opportunity to unlock their full potential and chart a
+                  successful future.
+                </h1>
+              </div>
+            </>
+          </div>
+          <div className='md:w-1/2 py-10 flex h-max flex-col gap-10'>
             <div className='flex justify-between'>
               <h1 className='text-2xl font-bold xc-color'>Our tools</h1>
               <Link
@@ -272,40 +297,6 @@ const page = async() => {
             <div className='md:px-10 pt-5'>
               <RCarousel items={tools} />
             </div>
-            {/* <div className='hidden md:grid grid-cols-1 md:grid-cols-2 gap-3 overflow-hidden p-5 '>
-              {tools.slice(0, 2).map((tool) => (
-                <div
-                  key={tool.name}
-                  className='justify-self-center rounded-lg drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] bg-slate-900 flex p-5 justify-between flex-col h-[300px] w-[250px]'>
-                  <div className='flex flex-col gap-5'>
-                    <h1 className='text-3xl font-bold text-[--blue-heading]'>
-                      {tool.name}
-                    </h1>
-                    <p className='line-clamp-4 text-lg font-medium'>
-                      {tool.description}
-                    </p>
-                  </div>
-                  <div className='flex'>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      width='30'
-                      height='30'
-                      fill='currentColor'
-                      class='bi bi-box-arrow-up-right'
-                      viewBox='0 0 16 16'>
-                      <path
-                        fill-rule='evenodd'
-                        d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'
-                      />
-                      <path
-                        fill-rule='evenodd'
-                        d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'
-                      />
-                    </svg>
-                  </div>
-                </div>
-              ))}
-            </div> */}
           </div>
         </div>
       </div>

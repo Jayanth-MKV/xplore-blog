@@ -37,7 +37,7 @@ const tutorialnames= await  getTutorialNames();
           </div>
         </div>
       </div>
-      <div className='mt-5 flex flex-col md:flex-row justify-between'>
+      <div className='mt-5 flex flex-col-reverse md:flex-row justify-between'>
         <div className='text-md'>
           © Copyright 2023 with ♥ by Xplore Community
         </div>
