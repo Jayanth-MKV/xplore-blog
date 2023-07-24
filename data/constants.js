@@ -64,4 +64,4 @@ export const tools = [
 },
 ];
 
-export const TutorialNames = ["Rust Tutorial", "ReactJs tutorial", "NextJs Tutorial"];
+export const TutorialNames = ["Rust Tutorial", "ReactJs Tutorial", "NextJs Tutorial"];
