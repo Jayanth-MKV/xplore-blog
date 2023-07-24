@@ -57,13 +57,13 @@ const Header = () => {
           />
         </div>
       </main>
-      <nav className='z-[999] -mt-[6rem] md:inset-x-0 md:flex md:sticky md:top-0 items-center justify-center space-x-4 hidden h-[70px] py-2'>
+      <nav className='z-[999] -mt-[6rem] bg-transparent md:inset-x-0 md:flex md:sticky md:top-0 items-center justify-center space-x-4 hidden h-[70px] py-2'>
         {[
           ["Home", "/"],
-          ["Blog", "/blog"],
-          ["Tutorials", "/tutorials"],
-          ["Roadmaps", "/roadmaps"],
-          ["Author", "/author"],
+          ["Blog", "/blog#iscroll"],
+          ["Tutorials", "/tutorials#iscroll"],
+          ["Roadmaps", "/roadmaps#iscroll"],
+          ["Author", "/author#iscroll"],
         ].map(([title, url]) => (
           <Link
             key={title}
@@ -73,7 +73,22 @@ const Header = () => {
           </Link>
         ))}
       </nav>
-      <div className='z-[900] -mt-[6rem]  hidden md:block sticky top-0 bg-slate-900 border-[#3294F8] border-2  dark:bg-slate-500 h-[70px] py-2'></div>
+      <div className='z-[900] -mt-[6rem]  hidden md:block sticky top-0 bg-slate-900 border-[#3294F8]   dark:bg-slate-500 dark:bg-opacity-50	bg-opacity-50 h-[70px] py-2'>
+        <div className='flex justify-between w-full px-5'>
+          <Image
+            className=' rounded-2xl drop-shadow-[0_0px_50px_rgba(32,211,238,0.5)] shadow-[--prim]'
+            src={"/xplore.png"}
+            height={"60"}
+            width={"60"}
+            alt='Xplore Community'
+          />
+          <div className=' hover:text-white hover:py-2 my-2 text-center xc-color py-2 px-4 md:text-xl text-lg font-bold rounded-xl border-[2px] border-solid border-[--prim]'>
+            <Link href={"https://discord.gg/9MxVqaeK7e"} target='__blank'>
+              Join Us
+            </Link>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
@@ -86,8 +101,7 @@ function MobileNav({ open, setOpen }) {
       } transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
       <div className='flex items-center justify-end filter dark:bg-[var(--headbg)] drop-shadow-md bg-slate-900 h-[128px] p-5 pr-8'>
         {/*logo container*/}
-        <a
-          href='/'>
+        <a href='/'>
           <Image
             className=''
             src={"/logo.png"}
@@ -100,10 +114,10 @@ function MobileNav({ open, setOpen }) {
       <div className='flex items-end flex-col mt-5 pr-8'>
         {[
           ["Home", "/"],
-          ["Blog", "/blog"],
-          ["Tutorials", "/tutorials"],
-          ["Roadmaps", "/roadmaps"],
-          ["Author", "/author"],
+          ["Blog", "/blog#iscroll"],
+          ["Tutorials", "/tutorials#iscroll"],
+          ["Roadmaps", "/roadmaps#iscroll"],
+          ["Author", "/author#iscroll"],
         ].map(([title, url]) => (
           <Link
             onClick={() => {

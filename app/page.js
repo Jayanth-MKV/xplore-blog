@@ -33,7 +33,7 @@ const page = async() => {
         );
     });
     tutorialz.push(
-      <div className='justify-self-center flex flex-col justify-between mt-5 min-w-[200px] w-[60%] rounded-lg text-center  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm  bg-slate-900'>
+      <div className='justify-self-center flex flex-col justify-between mt-5 min-w-[200px] w-[60%] rounded-lg text-center  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm  bg-slate-900 hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform'>
         <div className='h-full flex flex-col items-center justify-center'>
           <Link
             href={`/tutorials`}
@@ -56,7 +56,7 @@ const page = async() => {
       );
     });
     arr.push(
-      <div className='justify-self-center flex flex-col justify-between mt-5 min-w-[200px] w-[60%] rounded-lg text-center  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm  bg-slate-900'>
+      <div className='justify-self-center flex flex-col justify-between mt-5 min-w-[200px] w-[60%] rounded-lg text-center  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm  bg-slate-900 hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform'>
         <div className='h-full flex flex-col items-center justify-center'>
           <Link
             href={`/roadmaps`}
@@ -72,12 +72,12 @@ const page = async() => {
   return (
     <div className='dark:bg-slate-900 bg-blue-200'>
       <div className='md:w-[90%] md:mx-auto flex flex-col-reverse justify-between md:flex-row min-h-[400px] pt-10'>
-        <div className='flex flex-col p-5 md:p-[3rem] md:w-[50%] justify-between space-y-5'>
-          <h1 className='text-5xl font-bold'>
+        <div className='flex flex-col p-5 md:p-[3rem] md:w-[50%] justify-between space-y-5 animate__animated animate__jackInTheBox animate__slow'>
+          <h1 className='text-3xl md:text-5xl font-bold'>
             <span class='xc-color'>Explore</span> Your Possibilities, Empower
             Your <span class='xc-color'>Future</span>
           </h1>
-          <p className='text-lg font-semibold'>
+          <p className='text-md md:text-lg font-semibold '>
             A <span className='xc-color'>platform</span> that assists students
             in accessing resources for learning various domains and{" "}
             <span className='xc-color'>connecting</span> with internships and
@@ -141,20 +141,20 @@ const page = async() => {
         </div>
         <div className='flex justify-end flex-col p-5 md:p-[3rem] md:w-[40%] items-center '>
           <Image
-            className='rounded-2xl drop-shadow-[0_0px_50px_rgba(32,211,238,0.5)] shadow-[--prim]'
+            className='animate__slow animate__animated animate__jackInTheBox rounded-2xl drop-shadow-[0_0px_50px_rgba(32,211,238,0.5)] shadow-[--prim] hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform'
             src={"/xplore.png"}
             height={"300"}
             width={"300"}
             alt='Xplore Community'
           />
-          <div className=' hover:text-white hover:py-2 text-center xc-color py-[8px] px-5 md:text-2xl text-lg font-bold rounded-xl border-[3px] border-solid border-[--prim] mt-5'>
+          <div className='animate__animated animate__pulse font-mono hover:text-white hover:py-2 text-center xc-color py-[8px] px-5 md:text-2xl text-lg font-bold rounded-xl border-[3px] border-solid border-[--prim] mt-5'>
             <Link href={"https://discord.gg/9MxVqaeK7e"} target='__blank'>
               Join Us
             </Link>
           </div>
         </div>
       </div>
-      <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
+      <div className='animate__animated animate__slideInUp md:w-[90%] md:mx-auto flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
         <div className='flex justify-between '>
           <h2 className='text-3xl w-1/2 md:text-3xl font-bold'>
             Featured <span className='xc-color'>Articles</span>

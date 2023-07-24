@@ -8,19 +8,21 @@ const page = () => {
   return (
     <>
       <div className='md:w-[80%] min-h-[300px] mx-auto flex md:flex-row flex-col'>
-        <div className='md:w-[30%] md:py-10 p-5'>
+        <div className='animate__animated animate__jackInTheBox md:w-[30%] md:py-10 p-5'>
           <div className='w-full'>
-          <img
-            className='mx-auto rounded-full drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] object-cover md:h-[300px] h-[250px] w-[250px] md:w-[300px]'
-            height={100}
-            width={100}
-            alt='Jayanth-MKV'
-            src='/author.jpg'
+            <img
+              className='mx-auto rounded-full drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] object-cover md:h-[300px] h-[250px] w-[250px] md:w-[300px]'
+              height={100}
+              width={100}
+              alt='Jayanth-MKV'
+              src='/author.jpg'
             />
-            </div>
+          </div>
         </div>
         <div className='md:w-[70%] flex flex-col gap-10 justify-around md:p-10 p-5 font-mono'>
-          <h1 className='text-4xl font-bold'>Jayanth MKV</h1>
+          <h1 className='text-4xl font-bold animate__animated animate__zoomIn'>
+            Jayanth MKV
+          </h1>
           <p className='text-md'>
             As a versatile and experienced developer, I specialize in several
             programming languages including C++, JavaScript, and Python. With a
@@ -91,7 +93,7 @@ const page = () => {
           {tools.map((tool) => (
             <div
               key={tool.name}
-              className='justify-self-center rounded-lg drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] bg-slate-900 flex p-5 justify-between flex-col h-[300px] w-[250px]'>
+              className='animate__animated animate__zoomIn justify-self-center rounded-lg drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] bg-slate-900 flex p-5 justify-between flex-col h-[300px] w-[250px]'>
               <div className='flex flex-col gap-5'>
                 <h1 className='text-3xl font-bold text-[--blue-heading]'>
                   {tool.name}

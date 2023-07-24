@@ -1,7 +1,7 @@
 ---
 title: 'react-intro copy'
 description: 'My very second blog post'
-tutorial: 'reactjs-tutorial'
+tutorial: 'ReactJs Tutorial'
 date: '2023-7-20' 
 order: 1
 ---

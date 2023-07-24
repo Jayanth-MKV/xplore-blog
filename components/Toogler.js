@@ -3,8 +3,8 @@ import React from "react";
 import { useTheme } from "next-themes";
 
 const Button = () => {
-  const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const { systemTheme, theme, setTheme } = useTheme("dark");
+  // const currentTheme = theme === "system" ? systemTheme : theme;
 
     return (
       <div className='z-[9999] fixed right-5 bottom-5 rounded-full p-2 border-[var(--blue-heading)] border-2 dark:bg-slate-900 bg-slate-300'>

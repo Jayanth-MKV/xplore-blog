@@ -1,10 +1,9 @@
 ---
-title: 'next js tutorial title'
+title: 'next js tutorial'
 description: 'nextjs tutorial'
-tutorial: 'nextjs-tutorial'
-date: '2023-7-20' 
-order: 4
-category: 'Intro'
+tutorial: 'NextJs Tutorial'
+date: '2023-7-24' 
+order: 2
 ---
 
 # My First Post

@@ -25,7 +25,7 @@ export default function ResponsiveCarousel({ items }) {
 
 function CardComponent({ name }) {
     return (
-      <div className='w-full flex justify-center items-center mb-10'>
+      <div className='w-full flex justify-center items-center mb-10 '>
         <div className='mt-5 w-[80%] rounded-lg  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm bg-slate-900'>
           <Image
             width='80'

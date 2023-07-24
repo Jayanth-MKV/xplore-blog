@@ -63,3 +63,5 @@ export const tools = [
   </svg>`,
 },
 ];
+
+export const TutorialNames = ["Rust Tutorial", "ReactJs Tutorial", "NextJs Tutorial"];

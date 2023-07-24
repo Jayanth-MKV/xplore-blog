@@ -2,7 +2,7 @@
 title: 'next js copy tutorial'
 description: 'nextjs copy tutorial ndjbvjwdnviiwdiviwviiwnv
  ndjbvjwdnviiwdiviwviiwnv'
-tutorial: 'nextjs-tutorial'
+tutorial: 'NextJs Tutorial'
 date: '2023-7-23' 
 order: 1
 category: 'Basics'

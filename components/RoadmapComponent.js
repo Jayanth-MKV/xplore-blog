@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export function RoadmapComponent({ name,image }) {
   return (
-    <div className='justify-self-center flex flex-col justify-between mt-5 min-w-[250px] w-[60%] rounded-lg  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm bg-slate-900'>
+    <div className='animate__animated animate__zoomIn justify-self-center flex flex-col justify-between mt-5 min-w-[250px] w-[60%] rounded-lg  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm bg-slate-900 hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform'>
       <div
         className='w-full flex justify-center items-center h-48 rounded-full bg-blue-200 dark:bg-slate-900'
         dangerouslySetInnerHTML={{ __html: image }}></div>

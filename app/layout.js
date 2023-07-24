@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import "../styles/globals.css";
 import { Poppins } from "next/font/google";
 import Script from "next/script";
+import "animate.css";
 
 const poppins = Poppins({weight:'400' ,subsets: ["latin"] });
 
@@ -40,7 +41,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`${poppins.className} yes-scrollbar `}>
+      <body className={`${poppins.className} yes-scrollbar overflow-x-hidden `}>
         <Providers>
           <Script src='https://www.googletagmanager.com/gtag/js?id=G-8BDPV1PKKC' />
           <Script id='google-analytics'>

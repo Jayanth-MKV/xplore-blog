@@ -1,10 +1,11 @@
 --- 
- title: 'My Second1 Post' 
+ title: 'Basics Of Rust' 
  description: 'My very 
  second blog post' 
  date: '2023-7-21' 
- tutorial: 'Next-TUT'
+ tutorial: 'Rust Tutorial'
  order: 1
+ category: '2. Introduction'  
 --- 
 
 # My First Post
