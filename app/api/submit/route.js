@@ -12,9 +12,7 @@ export async function POST(request) {
     });
   }
     const res = await request.json();
-  console.log(res)
-  const pk = process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n");
-  console.log(pk)
+
   const auth = new google.auth.GoogleAuth({
     credentials: {
       client_email: process.env.GOOGLE_CLIENT_EMAIL,
