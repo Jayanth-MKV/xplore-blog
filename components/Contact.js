@@ -32,7 +32,7 @@ try {
   });
       const result = await response.json();
       if (result?.data.status == 200) {
-        //   console.log(result);
+          // console.log(result);
           fromref.current.reset();
             eref.current.classList.add("hidden");
         mref.current.classList.remove("hidden");
@@ -87,7 +87,7 @@ try {
         </label>
         <textarea
           name='message'
-          className='bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-blue-500 font-light text-gray-500'></textarea>
+          className='bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-blue-500 font-light text-gray-500' required={true}></textarea>
         <div className='flex flex-row items-center justify-start'>
           <button className='px-10 mt-8 py-2 bg-[#130F49] text-gray-50 font-light rounded-md text-lg flex flex-row items-center'>
             Send
