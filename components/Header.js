@@ -82,7 +82,7 @@ const Header = () => {
             width={"60"}
             alt='Xplore Community'
           />
-          <div className=' hover:text-white hover:py-2 my-2 text-center xc-color py-2 px-4 md:text-xl text-lg font-bold rounded-xl border-[2px] border-solid border-[--prim]'>
+          <div className='animate-pulse hover:text-white hover:py-2 my-2 text-center xc-color py-2 px-4 md:text-xl text-lg font-bold rounded-xl border-[2px] border-solid border-[--prim]'>
             <Link href={"https://discord.gg/9MxVqaeK7e"} target='__blank'>
               Join Us
             </Link>

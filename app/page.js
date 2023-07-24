@@ -141,7 +141,7 @@ const page = async() => {
         </div>
         <div className='flex justify-end flex-col p-5 md:p-[3rem] md:w-[40%] items-center '>
           <Image
-            className='animate__slow animate__animated animate__jackInTheBox rounded-2xl drop-shadow-[0_0px_50px_rgba(32,211,238,0.5)] shadow-[--prim] hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform'
+            className='animate-pulse animate__slow animate__animated animate__jackInTheBox rounded-2xl drop-shadow-[0_0px_50px_rgba(32,211,238,0.5)] shadow-[--prim] hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform'
             src={"/xplore.png"}
             height={"300"}
             width={"300"}
