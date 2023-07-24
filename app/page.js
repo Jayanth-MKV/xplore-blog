@@ -295,7 +295,7 @@ const page = async() => {
         </div>
       </div>
       <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col-reverse md:flex-row min-h-[400px] mt-10'>
-        <div className='flex flex-col justify-start md:w-3/5 mx-auto'>
+        <div className='flex flex-col justify-start md:w-3/5 w-full mx-auto'>
           <h2 className='text-3xl md:text-3xl font-bold'>
             Contact<span className='xc-color'> Us</span>
           </h2>
