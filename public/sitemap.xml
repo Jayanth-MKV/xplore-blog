@@ -1,4 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemap><loc>https://xplore-blog.vercel.app/sitemap-0.xml</loc></sitemap>
-</sitemapindex>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://xplore-blog.vercel.app/</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/author</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog/Mastering%20NestJS%20CLI%20Commands-A%20Comprehensive%20Guide%20with%20Examples</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog/The%20Need%20for%20Rust-Solving%20Modern%20Programming%20Challenges</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog/Unleashing%20the%20Power%20of%20Next.js%20-%20A%20Comprehensive%20Guide%20to%20Modern%20Web%20Development</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/NextJs%20Tutorial</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/NestJs%20Tutorial</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/ReactJs%20Tutorial</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Devops</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Web%20Development</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Android%20Development</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Machine%20Learning</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Blockchain</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/DSA%20(%20Competitive%20Programming%20)</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Data%20Science</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Tax3%20Calculator</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Tax%20Calculator</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/roadmaps/Tax2%20Calculator</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/blog/Unraveling%20Ownership%20and%20Borrowing%20in%20Rust%20-%20A%20Key%20Concept%20for%20Safe%20and%20Performant%20Code</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/NextJs%20Tutorial/nextjs-tutorial%20copy</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/NextJs%20Tutorial/nextjs-tutorial%20copy%203</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/NextJs%20Tutorial/nextjs-tutorial%20copy%202</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/NextJs%20Tutorial/nextjs-tutorial</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/NestJs%20Tutorial/Mastering%20NestJS%20CLI%20Commands-A%20Comprehensive%20Guide%20with%20Examples</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Table%20Of%20Contents</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Unveiling%20the%20Art%20of%20Programming-From%20Ideas%20to%20Code</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/The%20History%20of%20Rust-Evolution%20and%20Innovation</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Getting%20Started%20with%20Rust-A%20Journey%20into%20the%20Basics%20of%20Systems%20Programming</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Why%20Learn%20Rust-A%20Compelling%20Case%20for%20Developers</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/The%20Need%20for%20Rust-Solving%20Modern%20Programming%20Challenges</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Hello%20World!%20-%20Your%20First%20Rust%20Program</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Variables%20and%20Data%20Types%20in%20Rust</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Custom%20Types-Structs%20and%20Enums%20in%20Rust</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Variable%20Bindings%20and%20Mutability%20in%20Rust</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Type%20Inference%20and%20Type%20Annotations%20in%20Rust</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/Rust%20Tutorial/Type%20Conversion%20in%20Rust</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/ReactJs%20Tutorial/react-1%20copy</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xplore-blog.vercel.app/tutorials/ReactJs%20Tutorial/react-1</loc>
+  <lastmod>2024-03-12T09:39:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
