@@ -10,27 +10,27 @@ import RCarousel from "@/components/RoadmapCarousel";
 import { roadmaps } from "@/data/constants";
 import { RoadmapComponent } from "@/components/RoadmapComponent";
 import Contact from "@/components/Contact";
-import { tools } from '@/data/constants';
+import { tools } from "@/data/constants";
 
-const page = async() => {
+const page = async () => {
   const allArticle = await getArticlesForBlog();
   // console.log(allArticle.slice(0,4));
   const allArticles = allArticle.slice(0, 4).sort((a, b) => {
     return b.date - a.date;
   });
 
-    const articlePreviews = allArticles.map((post) => (
-      <ArticlePreview key={post.date} {...post} />
-    ));
-  
+  const articlePreviews = allArticles.map((post) => (
+    <ArticlePreview key={post.date} {...post} />
+  ));
+
   const tutorials = await getTutorialNames();
   const TutCards = () => {
     const tutorialz = tutorials.slice(0, 3).map((name) => {
-        return (
-          <>
-            <CardComponent name={name} />
-          </>
-        );
+      return (
+        <>
+          <CardComponent name={name} />
+        </>
+      );
     });
     tutorialz.push(
       <div className='justify-self-center flex flex-col justify-between mt-5 min-w-[200px] w-[60%] rounded-lg text-center  drop-shadow-[0_0px_30px_rgba(32,211,238,0.5)] shadow-[--prim] lg:max-w-sm  bg-slate-900 hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform'>
@@ -47,7 +47,6 @@ const page = async() => {
   };
 
   const RoadmapCards = () => {
-
     const arr = roadmaps.slice(0, 3).map((name) => {
       return (
         <>
@@ -68,24 +67,40 @@ const page = async() => {
     );
     return arr;
   };
-  
+
   return (
     <div className='dark:bg-slate-900 bg-blue-200'>
-      <div className='md:w-[90%] md:mx-auto flex flex-col-reverse justify-between md:flex-row min-h-[400px] pt-10'>
-        <div className='flex flex-col p-5 md:p-[3rem] md:w-[50%] justify-between space-y-5 animate__animated animate__jackInTheBox animate__slow'>
+      <div className='md:w-[90%] md:mx-auto md:flex p-3 px-5 md:p-[3rem] hidden flex-col items-center justify-center min-h-[400px] mt-10'>
+        <h1 className='text-3xl md:text-5xl font-bold  md:block'>
+          <span class='xc-color'>Your</span> All-In-One{" "}
+          <span class='xc-color'>Resource</span> Platform
+          <div className='mx-auto w-fit animate__animated animate__pulse font-mono hover:text-white hover:py-2 text-center xc-color py-[8px] px-5 md:text-2xl text-lg font-bold rounded-xl border-[3px] border-solid border-[--prim] mt-10'>
+            <Link href='#intro'>Know&nbsp;Us</Link>
+          </div>
+        </h1>
+      </div>
+      <div className='md:w-[90%] md:h-screen md:mx-auto flex flex-col-reverse justify-between md:flex-row min-h-[400px] pt-10'>
+        <div
+          id='intro'
+          className='flex flex-col p-5 md:p-[3rem] md:w-[50%] justify-end gap-10 space-y-5'>
           <h1 className='text-3xl md:text-5xl font-bold'>
-            <span class='xc-color'>Explore</span> Your Possibilities, Empower
-            Your <span class='xc-color'>Future</span>
+            <span class='xc-color'>Your</span> All-In-One{" "}
+            <span class='xc-color'>Resource </span> Platform
           </h1>
+
           <p className='text-md md:text-lg font-semibold '>
-            A <span className='xc-color'>platform</span> that assists students
-            in accessing resources for learning various domains and{" "}
+            {/* Your <span className='xc-color'> All-In-One-Resource-Platform</span>{" "} */}
+            {/* that */}
+            Assisting learners across the world in accessing resources for
+            learning various domains.{" "}
+            {/* and{" "}
             <span className='xc-color'>connecting</span> with internships and
-            job opportunities. This is a{" "}
-            <span className='xc-color'>non-profit community</span> provides
-            valuable information and support to help students achieve their
-            educational and professional goals.
+            job opportunities. */}
+            This is a <span className='xc-color'>non-profit community</span>{" "}
+            provides valuable information and support to help students achieve
+            their educational and professional goals.
           </p>
+
           <div className='flex items-center gap-5'>
             <Link
               href={"https://www.instagram.com/xplorecommunityblog/"}
@@ -141,7 +156,7 @@ const page = async() => {
         </div>
         <div className='flex justify-end flex-col p-5 md:p-[3rem] md:w-[40%] items-center '>
           <Image
-            className='animate-pulse animate__slow animate__animated animate__jackInTheBox rounded-2xl drop-shadow-[0_0px_50px_rgba(32,211,238,0.5)] shadow-[--prim] hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform'
+            className='animate-pulse animate__slow animate__animated  rounded-2xl drop-shadow-[0_0px_50px_rgba(32,211,238,0.5)] shadow-[--prim] hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform'
             src={"/xplore.png"}
             height={"300"}
             width={"300"}
@@ -154,7 +169,13 @@ const page = async() => {
           </div>
         </div>
       </div>
-      <div className='animate__animated animate__slideInUp md:w-[90%] md:mx-auto flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
+      <div className='md:w-[90%] md:h-screen md:mx-auto flex p-3 px-5 md:p-[3rem] flex-col items-center justify-center min-h-[400px] mt-10'>
+        <h1 className='text-3xl md:text-5xl font-bold'>
+          <span class='xc-color'>Explore</span> Your Possibilities, Empower Your{" "}
+          <span class='xc-color'>Future</span>
+        </h1>
+      </div>
+      <div className='md:h-screen animate__animated animate__slideInUp md:w-[90%] md:mx-auto flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
         <div className='flex justify-between '>
           <h2 className='text-3xl w-1/2 md:text-3xl font-bold'>
             Featured <span className='xc-color'>Articles</span>
@@ -181,7 +202,7 @@ const page = async() => {
           {articlePreviews}
         </div>
       </div>
-      <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
+      <div className='md:h-screen md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
         <div className='flex justify-between'>
           <h2 className='text-3xl w-1/2 md:text-3xl font-bold'>
             Popular <span className='xc-color'>Tutorials</span>
@@ -211,7 +232,7 @@ const page = async() => {
           <TutCards />
         </div>
       </div>
-      <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
+      <div className='md:h-screen md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
         <div className='flex justify-between'>
           <h2 className='text-3xl w-1/2 md:text-3xl font-bold'>
             Get Your <span className='xc-color'>RoadMaps</span>
@@ -241,23 +262,23 @@ const page = async() => {
           <RoadmapCards />
         </div>
       </div>
-      <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
+      <div className='md:h-screen md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col min-h-[400px] mt-10'>
         <h2 className='text-3xl md:pb-10 md:text-3xl font-bold'>
           About<span className='xc-color'> Us</span>
         </h2>
         <div className='flex flex-col md:flex-row justify-start md:w-full'>
-          <div className='md:w-1/2 py-10 flex flex-col justify-between'>
-            <h1 className='text-2xl font-bold xc-color my-3'>
+          <div className='md:w-1/2 py-10 flex flex-col justify-start gap-5 text-justify'>
+            {/* <h1 className='text-2xl font-bold xc-color my-3'>
               {"Xplore Community's Purpose"}
-            </h1>
+            </h1> */}
             <>
-              <div>
+              <div className='w-2/3'>
                 <h1 className='text-2xl font-bold text-blue-300 my-3'>Moto:</h1>
                 <h1 className='text-md font-semibold font-mono'>
                   Explore Your Possibilities, Empower Your Future
                 </h1>
               </div>
-              <div>
+              <div className='w-2/3'>
                 <h1 className='text-2xl font-bold text-blue-300 my-3'>
                   Mission:
                 </h1>
@@ -267,7 +288,7 @@ const page = async() => {
                   personal and professional growth.
                 </h1>
               </div>
-              <div>
+              <div className='w-2/3'>
                 <h1 className='text-2xl font-bold text-blue-300 my-3'>
                   Vision:
                 </h1>
@@ -279,22 +300,25 @@ const page = async() => {
               </div>
             </>
           </div>
-          <div className='md:w-1/2 py-10 flex h-max flex-col gap-10'>
-            <div className='flex justify-between'>
-              <h1 className='text-2xl font-bold xc-color'>Our tools</h1>
+          <div className='md:w-1/2 py-10 flex h-max flex-col-reverse gap-10'>
+            <div className='flex justify-center items-center'>
+              {/* <h1 className='text-2xl font-bold xc-color'>Our tools</h1> */}
               <Link
                 href='/author'
                 className='font-bold border-solid border-2 border-blue-400 p-3'>
-                View More
+                View Tools
               </Link>
             </div>
             <div className='md:px-10 pt-5'>
               <RCarousel items={tools} />
             </div>
+            {/* <div className='flex justify-center items-center'>
+              <h1 className='text-2xl font-bold xc-color'>Our tools</h1>
+            </div> */}
           </div>
         </div>
       </div>
-      <div className='md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col-reverse md:flex-row min-h-[400px] mt-10'>
+      <div className=' md:h-screen items-center md:w-[90%] md:mx-auto  flex p-3 px-5 md:p-[3rem] flex-col-reverse md:flex-row min-h-[400px] mt-10'>
         <div className='flex flex-col justify-start md:w-3/5 w-full mx-auto'>
           <h2 className='text-3xl md:text-3xl font-bold'>
             Contact<span className='xc-color'> Us</span>

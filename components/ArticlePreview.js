@@ -12,7 +12,7 @@ export const ArticlePreview = (props) => {
         }
         aria-label={props.meta.tutorial}>
         <div>
-          <h2 className='capitalize font-medium text-xl hover:text-blue-400  text-[var(--head)] mb-4'>
+          <h2 className='line-clamp-2 capitalize font-medium text-xl hover:text-blue-400  text-[var(--head)] mb-4'>
             {props.meta.title}
           </h2>
 

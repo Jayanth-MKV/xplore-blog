@@ -15,7 +15,7 @@ export const metadata = {
     google: "r97zbLMu8e2wl4mmmFuUoOZTZDVKXEUhXVFlTD07p5A"
   },
   description:
-    "Discover a treasure trove of tech articles, tutorials, and roadmaps on xplore community's website. Dive into a world of knowledge as we provide insightful content to help you navigate various domains, master new skills, and chart your path to success. Join us on this educational journey!",
+    "An all in one resource platform for learners from different domains. Discover a treasure trove of tech articles, tutorials, and roadmaps on xplore community's website. Dive into a world of knowledge as we provide insightful content to help you navigate various domains, master new skills, and chart your path to success. Join us on this educational journey!",
   applicationName: "Xplore Community",
   referrer: "origin-when-cross-origin",
   keywords: [
@@ -27,6 +27,9 @@ export const metadata = {
     "best tutorials",
     "complete roadmaps",
     "article on",
+    "all in one resource platform",
+    "Rust",
+    "Rust Tutorials",
   ],
   authors: [
     {

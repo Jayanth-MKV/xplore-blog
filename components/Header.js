@@ -17,6 +17,7 @@ const Header = () => {
   return (
     <>
       <main
+        id="home"
         style={{ backgroundImage: 'url("/images/cover.png")' }}
         className='z-[995] relative bg-cover bg-center flex md:flex-col items-center justify-between md:p-10 md:pb-[8rem] py-7 px-5'>
         <MobileNav open={open} setOpen={setOpen} />
@@ -57,9 +58,9 @@ const Header = () => {
           />
         </div>
       </main>
-      <nav className='z-[999] -mt-[6rem] bg-transparent md:inset-x-0 md:flex md:sticky md:top-0 items-center justify-center space-x-4 hidden h-[70px] py-2'>
+      <nav className='z-[996] -mt-[6rem] bg-transparent md:inset-x-0 md:flex md:sticky md:top-0 items-center justify-center space-x-4 hidden h-[80px] py-3'>
         {[
-          ["Home", "/"],
+          ["Home", "/#home"],
           ["Blog", "/blog#iscroll"],
           ["Tutorials", "/tutorials#iscroll"],
           ["Roadmaps", "/roadmaps#iscroll"],
@@ -73,7 +74,7 @@ const Header = () => {
           </Link>
         ))}
       </nav>
-      <div className='z-[900] -mt-[6rem]  hidden md:block sticky top-0 bg-slate-900 border-[#3294F8]   dark:bg-slate-500 dark:bg-opacity-50	bg-opacity-50 h-[70px] py-2'>
+      <div className='z-[900] -mt-[6rem]  hidden md:block sticky top-0 bg-slate-900 border-[#3294F8]   dark:bg-slate-500 dark:bg-opacity-50	bg-opacity-50 h-[80px] py-3'>
         <div className='flex justify-between w-full px-5'>
           <Image
             className=' rounded-2xl drop-shadow-[0_0px_50px_rgba(32,211,238,0.5)] shadow-[--prim]'
@@ -82,11 +83,11 @@ const Header = () => {
             width={"60"}
             alt='Xplore Community'
           />
-          <div className='animate-pulse hover:text-white hover:py-2 my-2 text-center xc-color py-2 px-4 md:text-xl text-lg font-bold rounded-xl border-[2px] border-solid border-[--prim]'>
+          {/* <div className='z-[997] animate-pulse hover:text-white hover:py-2 my-2 text-center xc-color py-2 px-4 md:text-xl text-lg font-bold rounded-xl border-[2px] border-solid border-[--prim]'>
             <Link href={"https://discord.gg/9MxVqaeK7e"} target='__blank'>
               Join Us
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
