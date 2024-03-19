@@ -74,6 +74,6 @@ export const tools = [
 export const TutorialNames = [
   "NestJs Tutorial",
   "Rust Tutorial",
-  "ReactJs Tutorial",
-  "NextJs Tutorial",
+  // "ReactJs Tutorial",
+  // "NextJs Tutorial",
 ];
