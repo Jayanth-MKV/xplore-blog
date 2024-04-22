@@ -6,6 +6,7 @@ import "../styles/globals.css";
 import { Poppins } from "next/font/google";
 import Script from "next/script";
 import "animate.css";
+import { Analytics } from "@vercel/analytics/react"
 
 const poppins = Poppins({weight:'400' ,subsets: ["latin"] });
 
@@ -64,6 +65,7 @@ export default function RootLayout({ children }) {
           </div>
           <Footer />
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
