@@ -28,9 +28,9 @@ const page = () => {
 
 My journey as a developer spans across multiple programming languages, from C++ to JavaScript and Python. Proficient in web development, I specialize in crafting modern, dynamic, and responsive websites and applications. Beyond conventional web development, my expertise extends to integrating cutting-edge technologies like artificial intelligence (AI) and machine learning (ML) into projects, ensuring innovation and efficiency.
 
-Problem-solving and designing are at the core of my skill set, complemented by my proficiency in frameworks such as Next.js, Nestjs, GenAI Tools, Langchain, and PyTorch. I'm constantly exploring the realms of AI-ML and WEB 3.0, pushing boundaries and seeking new horizons.
+Problem-solving and designing are at the core of my skill set, complemented by my proficiency in frameworks such as Next.js, Nestjs, GenAI Tools, Langchain, and PyTorch. I&apos;m constantly exploring the realms of AI-ML and WEB 3.0, pushing boundaries and seeking new horizons.
 
-Join me and our vibrant community on Discord at https://discord.com/invite/9MxVqaeK7e, where we engage in enriching tech talks and workshops. Together, we're building the future, one line of code at a time.
+Join me and our vibrant community on Discord at https://discord.com/invite/9MxVqaeK7e, where we engage in enriching tech talks and workshops. Together, we&apos;re building the future, one line of code at a time.
           </section>
           <div className='flex gap-5'>
             <Link href={"https://www.linkedin.com/in/jayanth-mkv-685609207/"}>
